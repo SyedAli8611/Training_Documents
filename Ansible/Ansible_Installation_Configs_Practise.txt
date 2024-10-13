@@ -186,7 +186,7 @@ ansible samplenode1 -m shell -a "sleep 5 ; echo 'hi'"
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ansible Facts!
 
-ansible samplenode1 -m setup
+ansible samplenode1 -m setup(By using this we can see the architectural related details)
 ansible samplenode1 -m setup -a "filter=ansible_mounts"
 
 
